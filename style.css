@@ -21,12 +21,12 @@
 }
 
 .btn {
-  padding: 12px 34px;
+  padding: 8px 32px;
 
   border-radius: 8px;
   border: none;
 
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
 }
 
@@ -113,4 +113,43 @@ nav {
 
   color: var(--hero-secondary-txt-clr);
   font-size: 18px;
+}
+
+/* Random Info Section */
+
+.random-info-wrapper {
+  padding-top: 50px;
+  padding-bottom: 120px;
+
+  text-align: center;
+}
+
+.random-info-wrapper h1 {
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  gap: 50px;
+
+  padding-inline: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-info-img-placeholder {
+  width: 150px;
+  height: 150px;
+
+  border: 3px solid var(--btn-clr);
+  border-radius: 16px;
+
+  margin-bottom: 16px;
 }
