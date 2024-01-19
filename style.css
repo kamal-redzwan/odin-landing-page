@@ -185,3 +185,44 @@ nav {
   align-self: flex-end;
   padding-right: 40px;
 }
+
+/* CTA Section */
+
+.cta {
+  padding-block: 100px;
+}
+
+.cta-blue-bg {
+  background-color: var(--btn-clr);
+  border-radius: 8px;
+}
+
+.cta-wrapper {
+  padding: 50px 120px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-content {
+  color: var(--hero-secondary-txt-clr);
+}
+
+.btn-secondary {
+  border: 2px solid var(--hero-secondary-txt-clr);
+  background-color: var(--btn-clr);
+  color: var(--hero-secondary-txt-clr);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--dark-background-clr);
+}
+
+footer div {
+  padding-block: 36px;
+
+  color: var(--hero-secondary-txt-clr);
+  text-align: center;
+}
