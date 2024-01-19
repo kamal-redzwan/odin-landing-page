@@ -1,0 +1,47 @@
+:root {
+  --dark-background-clr: #1f2937;
+  --hero-txt-clr: #f9faf8;
+  --hero-secondary-txt-clr: #e5e7eb;
+  --btn-clr: #3882f6;
+  --information-header-clr: #1f2973;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+
+nav {
+  background-color: var(--dark-background-clr);
+}
+
+.navbar {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 24px;
+}
+
+.logo {
+  color: var(--hero-txt-clr);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--hero-secondary-txt-clr);
+  font-size: 18px;
+}
