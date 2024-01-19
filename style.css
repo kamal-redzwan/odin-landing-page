@@ -3,7 +3,6 @@
   --hero-txt-clr: #f9faf8;
   --hero-secondary-txt-clr: #e5e7eb;
   --btn-clr: #3882f6;
-  --information-header-clr: #1f2973;
 }
 
 * {
@@ -124,8 +123,9 @@ nav {
   text-align: center;
 }
 
-.random-info-wrapper h1 {
+.random-info-wrapper h2 {
   margin-bottom: 40px;
+  font-size: 28px;
 }
 
 .cards {
@@ -152,4 +152,36 @@ nav {
   border-radius: 16px;
 
   margin-bottom: 16px;
+}
+
+.card > p {
+  color: #4b5563;
+}
+
+/* Quote Section */
+
+.quote {
+  padding-top: 130px;
+  padding-bottom: 100px;
+  background-color: var(--hero-secondary-txt-clr);
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 126px;
+  padding-right: 100px;
+}
+
+.quote-wrapper h2 {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--dark-background-clr);
+}
+
+.quote-wrapper p {
+  align-self: flex-end;
+  padding-right: 40px;
 }
